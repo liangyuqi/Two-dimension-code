@@ -17,19 +17,22 @@ export default {
   },
   methods:{
        init(){
-         this.page_url=this.$store.state.setting.qrcodeApi + this.urlEncode(this.$store.state.setting.wechatUrl)
+         this.page_url=this.$store.state.setting.qrcodeApi + urlEncode(this.$store.state.setting.wechatUrl)
        }
   },
   created(){
        this.init();
-  }
+  },
+    mounted(){
+     document.title='收款码'
+  },
 }
 </script>
 
 <style scoped lang='less'>
       @import "~common/css/common.less";
     .code-title {
-    height: 80px;
+    height: 0.8rem;
     background-size: 50%;
 }
 .code-item {

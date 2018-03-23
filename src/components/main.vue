@@ -18,11 +18,6 @@ export default {
     }
   },
   methods: {
-    urlEncode(String) {
-      return encodeURIComponent(String)
-        .replace(/'/g, '%27')
-        .replace(/"/g, '%22')
-    },
     isNavigator() {
       if (navigator.userAgent.match(/Alipay/i)) {
         window.location.href = this.$store.state.setting.aliUrl
@@ -33,12 +28,15 @@ export default {
       } else {
         this.page_url =
           this.$store.state.setting.qrcodeApi +
-          this.urlEncode(window.location.href)
+          urlEncode(window.location.href)
       }
     }
   },
   created() {
     this.isNavigator()
+  },
+  mounted(){
+     document.title='收款码'
   },
   watch: {
     userAgent(val, oldval) {

@@ -1,11 +1,10 @@
 # Two-dimension-code
-<<<<<<< HEAD
 
-=======
->>>>>>> 4f5d288897856d56ce8a76e666e0e3a3dd429b25
 A universal payment code which includes QQ,Wechat,Alipay
 
 这是一个在线生成 集qq，微信，支付宝于一体的收款二维码软件
+
+在线试用地址：[http://lustforlife.cn/Two-dimension-code/dist/#/main](http://lustforlife.cn/Two-dimension-code/dist/#/main)
 
 技术基于vue.js+vue-cli+webpack+vue-router+vuex+less
 
@@ -13,7 +12,7 @@ A universal payment code which includes QQ,Wechat,Alipay
 
 1.下载clone到本地
 
-2.传入qq，微信，支付宝收款二维码图片，不传则默认为我本人的
+2.传入qq，微信，支付宝收款二维码图片 (不传则默认为我本人的o.o)
 
 3.在线自动生成万能收款码
 
