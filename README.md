@@ -1,4 +1,8 @@
 # Two-dimension-code
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4f5d288897856d56ce8a76e666e0e3a3dd429b25
 A universal payment code which includes QQ,Wechat,Alipay
 
 这是一个在线生成 集qq，微信，支付宝于一体的收款二维码软件
