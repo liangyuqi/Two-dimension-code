@@ -1,5 +1,5 @@
 import Vuex from 'vuex'
-import Vue from 'vue'
+import Vue from '../assets/js/common'
 
 Vue.use(Vuex)
 
