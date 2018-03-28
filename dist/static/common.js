@@ -1,3 +1,15 @@
+import Vue from 'vue'
+
+function urlEncode(String) {
+    return encodeURIComponent(String)
+      .replace(/'/g, '%27')
+      .replace(/"/g, '%22')
+  }
+
+Object.assign(window,{
+urlEncode
+})
+
 document.addEventListener('DOMContentLoaded', function () {
     document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 * 2 + 'px';
 }, false)
@@ -16,3 +28,5 @@ function setRem() {
     }
 
 }
+
+export default Vue;

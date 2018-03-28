@@ -1,4 +1,4 @@
-import Vue from '../assets/js/common'
+import Vue from '../../static/common'
 import Router from 'vue-router'
 import Main from '@/components/main'
 const QQ = resolve => require(['@/components/qq'], resolve)
