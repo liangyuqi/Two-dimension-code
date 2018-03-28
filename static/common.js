@@ -1,4 +1,4 @@
-import Vue from 'vue'
+// import Vue from 'vue'
 
 function urlEncode(String) {
     return encodeURIComponent(String)
@@ -29,4 +29,4 @@ function setRem() {
 
 }
 
-export default Vue;
+// export default Vue;
