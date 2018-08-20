@@ -11,7 +11,7 @@ export default {
   name: 'qq',
   data() {
     return {
-      msg: 'qq面',
+      msg: 'qq',
       page_url:'data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=='
     }
   },

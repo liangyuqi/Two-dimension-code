@@ -11,7 +11,7 @@ export default {
   name: 'wechat',
   data() {
     return {
-      msg: '微信面',
+      msg: 'wechat',
       page_url:'data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=='
     }
   },

@@ -11,7 +11,7 @@ export default {
   name: 'qq',
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'alipay'
     }
   },
   methods:{
