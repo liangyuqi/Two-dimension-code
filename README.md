@@ -4,7 +4,9 @@ A universal payment code which includes QQ,Wechat,Alipay
 
 这是一个在线生成 集qq，微信，支付宝于一体的收款二维码软件
 
-在线试用地址：[https://lustforlife.cn/Two-dimension-code](https://lustforlife.cn/Two-dimension-code)
+在线试用地址：[https://liangyuqi.github.io/Two-dimension-code/]( https://liangyuqi.github.io/Two-dimension-code/)
+
+~~域名过期了。。[https://lustforlife.cn/Two-dimension-code](https://lustforlife.cn/Two-dimension-code)~~
 
 技术基于vue.js+vue-cli+webpack+vue-router+vuex+less
 
